@@ -1,0 +1,64 @@
+/* Colour palette  
+CSS HEX 
+--orange-web: #ffa400ff;
+--carolina-blue: #009ffdff;
+--nadeshiko-pink: #efaac4ff;
+--black-coffee: #41393eff;
+--french-raspberry: #c33149ff;
+--french-violet: #731dd8ff;
+--granny-apple: #bde4a7;
+--dark-purple: #381d2a; 
+*/
+
+/* Global Styles  
+----------------------------------*/
+body {
+    color: #41393eff;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #bde4a7;
+
+}
+a:hover{
+    text-decoration: none;  
+}
+
+/* Profile   
+----------------------------------*/
+header {
+    background: #ffa400ff;
+}
+
+/* Projects   
+----------------------------------*/
+.project {
+background: #009ffdff;
+}
+.project .btn {
+    padding: 6px;
+    background: #381d2a;
+    border-radius: 4px;
+}
+.project .btn:hover{
+    background: rgb(56,29,42, 80%);
+}
+
+/* Work Experience    
+----------------------------------*/
+.work-experience {
+    background: #efaac4ff;
+}
+
+/* Education    
+----------------------------------*/
+
+
+/* Contact Info     
+----------------------------------*/
+footer {
+    background: #c33149ff;
+    color: #fcf7f8;
+}
