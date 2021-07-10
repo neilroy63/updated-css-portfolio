@@ -83,6 +83,9 @@ background: #009ffdff;
     float: left;
     margin-right: 21px;
 }
+.project-item h3 {
+    margin-top: 0;
+}
 
 /* Work Experience    
 ----------------------------------*/
