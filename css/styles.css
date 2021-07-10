@@ -74,7 +74,6 @@ h3{
 ----------------------------------*/
 header {
     background: #ffa400ff;
-    text-align: center;
 }
 
 /* Projects   
@@ -95,10 +94,7 @@ background: #009ffdff;
     overflow: hidden;
 
 }
-.project-item img {
-    float: left;
-    margin-right: 21px;
-}
+
 .project-item h3 {
     margin-top: 0;
 }
@@ -126,16 +122,46 @@ background: #009ffdff;
 footer {
     background: #c33149ff;
     color: #fcf7f8;
-    text-align: center;
 }
 .contact-list{
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
+
 }
 .contact-list a {
     padding: 16px;
     display: inline-block;
 
+}
+
+/*
+Responsive  
+*/
+@media screen and (min-width:750px) {
+    header, footer {
+        text-align: center;
+
+    }
+    .project-item img {
+        float: left;
+        margin-right: 21px;
+    }
+    .contact-list{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:749px){
+    h1 {
+        font-size: 73px;
+        line-height: 0.8;
+        margin-bottom: 20px;
+    }
+    h1,h2 {
+        line-height: 1;
+    }
+    .contact-list{
+        padding: 4px;
+    }
 }
