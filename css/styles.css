@@ -27,9 +27,13 @@ a {
 a:hover{
     text-decoration: none;  
 }
+h2 {
+    margin: 0;
+}
 .content-wrapper{
     width: 900px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 
@@ -48,6 +52,7 @@ background: #009ffdff;
     padding: 6px;
     background: #381d2a;
     border-radius: 4px;
+    display: inline-block;
 }
 .project .btn:hover{
     background: rgb(56,29,42, 80%);
