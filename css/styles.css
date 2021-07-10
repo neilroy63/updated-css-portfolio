@@ -111,7 +111,15 @@ background: #009ffdff;
 
 /* Education    
 ----------------------------------*/
-
+.education{
+    background-image: url(../images/Education\ background.jpg);
+    background-size: cover;
+    background-position:top right;
+    padding-bottom: 101px;
+}
+.education p {
+    width: 50%;
+}
 
 /* Contact Info     
 ----------------------------------*/
