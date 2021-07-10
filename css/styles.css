@@ -14,6 +14,8 @@ CSS HEX
 ----------------------------------*/
 body {
     color: #41393eff;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
@@ -25,6 +27,11 @@ a {
 a:hover{
     text-decoration: none;  
 }
+.content-wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
 
 /* Profile   
 ----------------------------------*/
