@@ -74,6 +74,15 @@ background: #009ffdff;
 .project .btn:hover{
     background: rgb(56,29,42, 80%);
 }
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #41393eff;    
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 21px;
+}
 
 /* Work Experience    
 ----------------------------------*/
