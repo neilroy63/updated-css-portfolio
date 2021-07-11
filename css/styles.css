@@ -10,6 +10,7 @@ CSS HEX
 --dark-purple: #381d2a; 
 --baby-powder: #fdfffc;
 -eerie-black: #191919;
+--tart-orange: #ef5b5b;
 */
 
 /* Global Styles  
@@ -88,7 +89,7 @@ background: #009ffdff;
 }
 .project .btn {
     padding: 6px;
-    background: #381d2a;
+    background: #ef5b5b;
     border-radius: 4px;
     display: inline-block;
 }
