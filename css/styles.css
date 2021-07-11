@@ -8,6 +8,7 @@ CSS HEX
 --french-violet: #731dd8ff;
 --granny-apple: #bde4a7;
 --dark-purple: #381d2a; 
+--baby-powder: #fdfffc;
 */
 
 /* Global Styles  
@@ -30,7 +31,7 @@ img {
     width: 300px;
 }
 a {
-    color: #bde4a7;
+    color: #fdfffc;
 
 }
 a:hover{
@@ -100,6 +101,9 @@ background: #009ffdff;
 
 .project-item h3 {
     margin-top: 0;
+}
+.project a{
+    text-decoration: none;
 }
 
 /* Work Experience    
