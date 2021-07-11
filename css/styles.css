@@ -11,6 +11,8 @@ CSS HEX
 --baby-powder: #fdfffc;
 -eerie-black: #191919;
 --tart-orange: #ef5b5b;
+--fire-opal: #ee6352;
+--honey-yellow: #FFB30F;
 */
 
 /* Global Styles  
@@ -130,8 +132,8 @@ background: #009ffdff;
 /* Contact Info     
 ----------------------------------*/
 footer {
-    background: #c33149ff;
-    color: #fcf7f8;
+    background: #ee6352;
+    color: #fdfffc;
 }
 .contact-list{
     list-style-type: none;
