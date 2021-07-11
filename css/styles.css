@@ -9,6 +9,7 @@ CSS HEX
 --granny-apple: #bde4a7;
 --dark-purple: #381d2a; 
 --baby-powder: #fdfffc;
+-eerie-black: #191919;
 */
 
 /* Global Styles  
@@ -20,7 +21,7 @@ html{
     box-sizing: inherit;
 }
 body {
-    color: #41393eff;
+    color: #191919;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -104,6 +105,7 @@ background: #009ffdff;
 }
 .project a{
     text-decoration: none;
+    
 }
 
 /* Work Experience    
